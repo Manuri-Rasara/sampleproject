@@ -11,7 +11,7 @@ export const metadata = {
   description: "___________",
   openGraph: {
     title: "Navoda Rajapaksha",
-    description: "________________",
+    description: "________",
     type: "website",
     url: "/",
     siteName: "Navoda Rajapaksha",
@@ -20,7 +20,7 @@ export const metadata = {
         url: "/Nimg.png",
         width: 1200,
         height: 630,
-        alt: "Navoda Rajapaksha",
+        alt: "Navoda Rajapaksha preview image",
       },
     ],
   },
@@ -45,6 +45,20 @@ export default function RootLayout({
       suppressHydrationWarning
       className={cn("antialiased", fontMono.variable, "font-sans", geist.variable)}
     >
+      <head>
+        <meta property="og:title" content="Navoda Rajapaksha" />
+        <meta property="og:description" content="A creative portfolio and interactive gallery built with Next.js." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://sampleproject-1lzy.vercel.app/" />
+        <meta property="og:image" content="https://sampleproject-1lzy.vercel.app/Nimg.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Navoda Rajapaksha preview image" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Navoda Rajapaksha" />
+        <meta name="twitter:description" content="A creative portfolio and interactive gallery built with Next.js." />
+        <meta name="twitter:image" content="https://sampleproject-1lzy.vercel.app/Nimg.png" />
+      </head>
       <body>
         <ThemeProvider>{children}</ThemeProvider>
       </body>
