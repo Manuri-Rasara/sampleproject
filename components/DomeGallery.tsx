@@ -58,47 +58,47 @@ src: "./Images/5.webp",
   },
   {
 src: "./Images/6.webp",        
- alt: 'Social media image'
+ alt: 's1'
   },
 
     {
 src: "./Images/7.webp",        
- alt: 'Social media image'
+ alt: 's2'
   },
 
 
 
       {
 src: "./Images/9.webp",        
- alt: 'Social media image'
+ alt: 's3'
   },
 
       {
 src: "./Images/10.webp",        
- alt: 'Social media image'
-  },
+ alt: 's4'
+    },
 
       {
 src: "./Images/11.webp",        
- alt: 'Social media image'
+ alt: 's5'
   },
 
       {
 src: "./Images/12.webp",        
- alt: 'Social media image'
+ alt: 's6'
   },
 
       {
 src: "./Images/13.webp",        
- alt: 'Social media image'
+ alt: 's7'
   },
     {
 src: "./Images/14.webp",        
- alt: 'Social media image'
+ alt: 's8'
   },
       {
 src: "./Images/15.webp",        
- alt: 'Social media image'
+ alt: 's9'
   },
 
 
