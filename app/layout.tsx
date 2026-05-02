@@ -7,8 +7,8 @@ import { cn } from "@/lib/utils";
 export const metadataBase = new URL("https://sampleproject-1lzy.vercel.app");
 
 export const metadata = {
-  title: "Navoda Akka — Creative Web Project",
-  description: "A personal portfolio and interactive gallery experience built with Next.js.",
+  title: "Navoda Rajapaksha",
+  description: "___________",
   openGraph: {
     title: "Navoda Rajapaksha",
     description: "________________",
