@@ -9,6 +9,7 @@ import  Button  from "../components/Button";
 
 export default function Page() {
   const [loading, setLoading] = useState(true);
+  const [galleryVisible, setGalleryVisible] = useState(false);
   const [isMuted, setIsMuted] = useState(true);
   const [volume, setVolume] = useState(0.3);
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -44,6 +45,14 @@ export default function Page() {
       audio.removeEventListener("loadeddata", onLoadedData);
     };
   }, [isMuted, volume]);
+
+  useEffect(() => {
+    if (!loading) {
+      const raf = window.requestAnimationFrame(() => setGalleryVisible(true));
+      return () => window.cancelAnimationFrame(raf);
+    }
+    setGalleryVisible(false);
+  }, [loading]);
 
   const handleVolumeChange = (event: ChangeEvent<HTMLInputElement>) => {
     const nextVolume = Number(event.target.value);
@@ -117,7 +126,16 @@ export default function Page() {
           </div>
         </div>
       ) : (
-        <div style={{ width: "100vw", height: "100vh", position: "relative" }}>
+        <div
+          style={{
+            width: "100vw",
+            height: "100vh",
+            position: "relative",
+            opacity: galleryVisible ? 1 : 0,
+            
+            transition: "opacity 0.6s ease-out",
+          }}
+        >
           <DomeGallery
             fit={0.8}
             minRadius={600}
