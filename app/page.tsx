@@ -96,7 +96,7 @@ export default function Page() {
             rootMargin="-100px"
             textAlign="center"
             onLetterAnimationComplete={handleAnimationComplete}
-            showCallback
+       
           />
           <div
             style={{
@@ -184,7 +184,7 @@ export default function Page() {
             <Button/>
           </div>
 
-          
+
           </div>
          
         </div>
