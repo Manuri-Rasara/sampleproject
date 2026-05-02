@@ -37,73 +37,70 @@ type ItemDef = {
 
 const DEFAULT_IMAGES: ImageItem[] = [
   {
-    src: "./Images/1.jpg",
+    src: "./Images/1.webp",
     alt: 'Abstract art'
   },
   {
-    src: "./Images/2.png",
+    src: "./Images/2.webp",
     alt: 'Modern sculpture'
   },
   {
-    src: "./Images/3.png",
+    src: "./Images/3.webp",
     alt: 'Contemporary art'
   },
   {
-    src: "./Images/4.png",      
+    src: "./Images/4.webp",      
     alt: 'Geometric pattern'
   },
   {
-src: "./Images/5.png",     
+src: "./Images/5.webp",     
     alt: 'Textured surface'
   },
   {
-src: "./Images/6.png",        
+src: "./Images/6.webp",        
  alt: 'Social media image'
   },
 
     {
-src: "./Images/7.png",        
+src: "./Images/7.webp",        
  alt: 'Social media image'
   },
 
 
 
       {
-src: "./Images/9.png",        
+src: "./Images/9.webp",        
  alt: 'Social media image'
   },
 
       {
-src: "./Images/10.png",        
+src: "./Images/10.webp",        
  alt: 'Social media image'
   },
 
       {
-src: "./Images/11.png",        
+src: "./Images/11.webp",        
  alt: 'Social media image'
   },
 
       {
-src: "./Images/12.png",        
+src: "./Images/12.webp",        
  alt: 'Social media image'
   },
 
       {
-src: "./Images/13.png",        
+src: "./Images/13.webp",        
  alt: 'Social media image'
   },
     {
-src: "./Images/14.jpeg",        
+src: "./Images/14.webp",        
  alt: 'Social media image'
   },
       {
-src: "./Images/15.png",        
+src: "./Images/15.webp",        
  alt: 'Social media image'
   },
-      {
-src: "./Images/16.png",        
- alt: 'Social media image'
-  },
+
 
 ];
 
