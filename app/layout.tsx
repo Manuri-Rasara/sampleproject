@@ -10,8 +10,8 @@ export const metadata = {
   title: "Navoda Akka — Creative Web Project",
   description: "A personal portfolio and interactive gallery experience built with Next.js.",
   openGraph: {
-    title: "Navoda Akka — Creative Web Project",
-    description: "A personal portfolio and interactive gallery experience built with Next.js.",
+    title: "Navoda Rajapaksha",
+    description: "________________",
     type: "website",
     url: "/",
     siteName: "Navoda Rajapaksha",
