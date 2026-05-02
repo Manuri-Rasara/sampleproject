@@ -96,7 +96,6 @@ export default function Page() {
             rootMargin="-100px"
             textAlign="center"
             onLetterAnimationComplete={handleAnimationComplete}
-       
           />
           <div
             style={{
