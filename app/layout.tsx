@@ -17,10 +17,10 @@ export const metadata = {
     siteName: "Navoda Rajapaksha",
     images: [
       {
-        url: "/og-image.png",
+        url: "/Nimg.png",
         width: 1200,
         height: 630,
-        alt: "Navoda Akka project preview",
+        alt: "Navoda Rajapaksha",
       },
     ],
   },
