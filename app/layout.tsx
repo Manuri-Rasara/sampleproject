@@ -17,16 +17,16 @@ export const metadataBase = new URL("https://sampleproject-1lzy.vercel.app");
 
 export const metadata = {
   title: "Navoda Rajapaksha",
-  description: "A creative portfolio and interactive gallery built with Next.js.",
+  description: "____________________",
   openGraph: {
     title: "Navoda Rajapaksha",
-    description: "A creative portfolio and interactive gallery built with Next.js.",
+    description: "____________________",
     type: "website",
     url: "https://sampleproject-1lzy.vercel.app",
     siteName: "Navoda Rajapaksha",
     images: [
       {
-        url: "/Nimg.png",
+        url: "./Nimg.png",
         width: 1200,
         height: 630,
         alt: "Navoda Rajapaksha preview image",
@@ -36,8 +36,8 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Navoda Rajapaksha",
-    description: "A creative portfolio and interactive gallery built with Next.js.",
-    images: ["/Nimg.png"],
+    description: "____________________",
+    images: ["./Nimg.png"],
   },
   icons: {
     icon: "/favicon.ico",
