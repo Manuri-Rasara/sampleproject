@@ -26,7 +26,7 @@ export const metadata = {
     siteName: "Navoda Rajapaksha",
     images: [
       {
-        url: "./Nimg.png",
+        url: "/Nimg.png",
         width: 1200,
         height: 630,
         alt: "Navoda Rajapaksha preview image",
@@ -37,7 +37,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Navoda Rajapaksha",
     description: "____________________",
-    images: ["./Nimg.png"],
+    images: ["/Nimg.png"],
   },
   icons: {
     icon: "/favicon.ico",
